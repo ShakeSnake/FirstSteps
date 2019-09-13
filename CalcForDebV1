@@ -1,0 +1,19 @@
+# Калькулятор для дэбила
+Oper = input("Выберите операцию(+,-,*,/): ")
+Znach1 = float(input("Введите первое число: "))
+Znach2 = float(input("Введите второе число: "))
+if Oper == "+":
+	Otvet = Znach1 + Znach2
+	print("Результат: " + str(Otvet))
+elif Oper == "-":
+	Otvet = Znach1 - Znach2
+	print("Результат: " + str(Otvet))
+elif Oper == "*":
+	Otvet = Znach1 * Znach2
+	print("Результат: " + str(Otvet))
+elif Oper == "/":
+	Otvet = Znach1 / Znach2
+	print("Результат: " + str(Otvet))
+else:
+	print("Выбрана неверная операция!")
+input()
